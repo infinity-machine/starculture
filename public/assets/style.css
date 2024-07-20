@@ -10,6 +10,9 @@ body {
 #container {
     display: flex;
     justify-content: center;
+
+    margin: auto;
+
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
@@ -18,13 +21,14 @@ body {
 
 #background {
     position: absolute;
-    transform: translateZ(-.1px);
+    top: 0;
+    transform: translateZ(-.5px);
 }
 
 #main {
-    margin-top: 48%;
-    transform: translateZ(.1px);
-
+    position: absolute;
+    top: 50%;
+    transform: translateZ(.5px);
     color: white;
     text-align: center;
 }
