@@ -13,19 +13,23 @@ body {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
-    perspective: 10px;
+    perspective: 1px;
 }
 
 #background {
-    z-index: 0;
     position: absolute;
-    transform: translateZ(-1px);
+    transform: translateZ(-.1px);
 }
 
 #main {
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    transform: translateZ(1px);
+    margin-top: 48%;
+    transform: translateZ(.1px);
+
     color: white;
+    text-align: center;
 }
+
+#headline {
+    font-size: 3rem;
+}
+
