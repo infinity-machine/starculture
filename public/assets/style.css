@@ -9,26 +9,23 @@ body {
 
 #container {
     display: flex;
-    justify-content: center;
-
-    margin: auto;
-
     height: 100vh;
+    justify-content: center;
     overflow-x: hidden;
     overflow-y: auto;
-    perspective: 1px;
+    perspective: 10px;
 }
 
 #background {
     position: absolute;
     top: 0;
-    transform: translateZ(-.5px);
+    transform: translateZ(0px)
 }
 
 #main {
     position: absolute;
     top: 50%;
-    transform: translateZ(.5px);
+    transform: translateZ(5px);
     color: white;
     text-align: center;
 }
