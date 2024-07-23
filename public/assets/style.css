@@ -20,7 +20,7 @@ body {
 #background {
     position: absolute;
     top: 0;
-    transform: translateZ(0px)
+    /* transform: translateZ(0px) */
 }
 
 #header {
@@ -29,7 +29,7 @@ body {
     position: absolute;
     top: 50%;
 
-    transform: translateZ(.5px);
+    /* transform: translateZ(.5px); */
 
     color: white;
     text-align: center;
@@ -48,5 +48,5 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateZ(.2px);
+    /* transform: translateZ(.2px); */
 }
