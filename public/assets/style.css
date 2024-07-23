@@ -14,7 +14,7 @@ body {
     justify-content: center;
     overflow-x: hidden;
     overflow-y: auto;
-    perspective: 1px;
+    /* perspective: 1px; */
 }
 
 #background {
