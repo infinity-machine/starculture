@@ -14,7 +14,7 @@ body {
     justify-content: center;
     overflow-x: hidden;
     overflow-y: auto;
-    perspective: 10px;
+    perspective: 1px;
 }
 
 #background {
@@ -29,14 +29,14 @@ body {
     position: absolute;
     top: 50%;
 
-    transform: translateZ(5px);
+    transform: translateZ(.5px);
 
     color: white;
     text-align: center;
 }
 
 #headline {
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: 'copperplate';
 }
 
@@ -44,9 +44,9 @@ body {
     position: absolute;
     top: 90%;
     color: white;
-    width: 50%;
+    width: 65%;
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateZ(2px);
+    transform: translateZ(.2px);
 }
