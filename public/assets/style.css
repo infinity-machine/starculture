@@ -1,7 +1,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url(./img/orbits_blank.png);
+    background-image: url(./img/orbits_redux_blank.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -14,13 +14,13 @@ body {
     justify-content: center;
     overflow-x: hidden;
     overflow-y: auto;
-    /* perspective: 1px; */
+    perspective: 1px;
 }
 
 #background {
     position: absolute;
     top: 0;
-    /* transform: translateZ(0px) */
+    transform: translateZ(0px)
 }
 
 #header {
@@ -29,14 +29,14 @@ body {
     position: absolute;
     top: 50%;
 
-    /* transform: translateZ(.5px); */
+    transform: translateZ(.5px);
 
     color: white;
     text-align: center;
 }
 
 #headline {
-    font-size: 5vw;
+    font-size: 3vw;
     font-family: 'copperplate';
 }
 
@@ -48,5 +48,5 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* transform: translateZ(.2px); */
+    transform: translateZ(.2px);
 }
