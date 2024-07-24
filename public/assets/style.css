@@ -4,8 +4,8 @@ body {
     background-image: url(./img/orbits_redux_blank.jpg);
     background-attachment: fixed;
     background-position: center;
-    background-repeat: repeat-x;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 #container {
@@ -15,21 +15,21 @@ body {
     justify-content: center;
     overflow-x: hidden;
     overflow-y: auto;
-    /* perspective: 1px; */
+    perspective: 1px;
 }
 
 #background {
     position: absolute;
     top: 0;
-    /* transform: translateZ(-1px) scale(2) */
+    transform: translateZ(-1px) scale(2)
 }
 
 #header {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 50%;
-    /* transform: translateZ(.5px) scale(.5); */
+    top: 40%;
+    transform: translateZ(.5px) scale(.5);
     color: rgb(166, 166, 166);
     text-align: center;
 }
@@ -41,11 +41,11 @@ body {
 
 #article {
     position: absolute;
-    top: 90%;
+    top: 95%;
     color: white;
     width: 65%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* transform: translateZ(.1px); */
+    transform: translateZ(.1px);
 }
