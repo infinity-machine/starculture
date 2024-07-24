@@ -24,7 +24,8 @@ body {
 #background {
     position: absolute;
     height: 100%;
-    width: 100%;
+    margin-bottom: 1000px;
+    width: min(100%, 1000px);
     transform: translateZ(-1px) scale(2.1);
 }
 
@@ -43,7 +44,7 @@ body {
 }
 
 #headline {
-    font-size: 15vw;
+    font-size: min(15vw, 8rem);
     font-family: 'copperplate';
 }
 
