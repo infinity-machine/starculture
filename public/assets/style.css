@@ -43,7 +43,7 @@ body {
 
 #logo-img {
     width: min(73vw, 800px);
-    opacity: 80%;
+    opacity: 95%;
 }
 
 #article {
@@ -59,6 +59,6 @@ body {
 
 @media screen and (max-width: 580px) {
     #header {
-       margin-bottom: 20vh;
+       margin-bottom: 10vh;
     }
 }
