@@ -37,6 +37,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
+    /* margin-bottom: 100px; */
     transform: translateZ(.6px) scale(.5);
     color: rgb(166, 166, 166);
     text-align: center;
@@ -49,7 +50,7 @@ body {
 
 #article {
     position: absolute;
-    top: 85%;
+    top: 82%;
     color: rgb(166, 166, 166);
     width: 65%;
     display: flex;
@@ -58,8 +59,8 @@ body {
     transform: translateZ(.3px);
 }
 
-/* @media screen and (max-width: 850px) {
+@media screen and (max-width: 580px) {
     #headline {
-        border: 1px solid white;
+        margin-bottom: 300px;
     }
-} */
+}
