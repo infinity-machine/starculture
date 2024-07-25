@@ -24,7 +24,6 @@ body {
 #background {
     position: absolute;
     height: 100%;
-    margin-bottom: 1000px;
     width: min(100%, 1000px);
     transform: translateZ(-1px) scale(2.1);
 }
